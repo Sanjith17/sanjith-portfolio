@@ -1,0 +1,155 @@
+{
+    "basic_info": {
+      "name": "Avinash Reddy Mettukuru",
+      "titles": [ "Front-end Developer", "Backend Engineer", "Software Engineer", "Mobile App Developer" ],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/avinash-rdy2903?tab=repositories",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "linkedIn",
+          "url": "https://www.linkedin.com/in/avinash2903/",
+          "class": "fab fa-linkedin"
+        }
+      ],
+      "profile_pic": "myProfile.jpg",
+      "aws_icon":"aws.png"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "React/React Native",
+          "class": "devicon-react-original",
+          "level": "80"
+        },
+        {
+          "name": "Redux",
+          "class": "devicon-redux-original",
+          "level": "80"
+        },
+        {
+          "name": "TypeScript",
+          "class": "devicon-typescript-plain",
+          "level": "90"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "70"
+        },
+        {
+          "class": "devicon-spring-original",
+          "name": "Spring Boot"
+        },
+        {
+          "class":"devicon-graphql-plain",
+          "name":"GraphQL"
+        },
+        {
+          "class": "devicon-java-plain",
+          "name": "Java"
+        },
+        {
+          "class":"devicon-apachekafka-plain",
+          "name":"Apache Kafka"
+        },
+        {
+          "class": "devicon-junit-plain",
+          "name": "JUnit"
+        },
+        {
+          "name":"NextJS",
+          "class": "devicon-nextjs-plain",
+          "level": "95"
+        },
+        {
+          "name": "Protractor",
+          "class": "devicon-protractor-plain",
+          "level": "65"
+        },
+        {
+          "name": "Mocha",
+          "class": "devicon-mocha-plain",
+          "level": "65"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain",
+          "level": "95"
+        },
+        {
+          "name": "Angular",
+          "class": "devicon-angularjs-plain",
+          "level": "80"
+        },        
+        {
+          "name":"jQuery",
+          "class":"devicon-jquery-plain"
+        },
+        
+        {
+          "class": "devicon-azure-plain",
+          "name": "Azure"
+        },
+        {
+          "class":"devicon-postgresql-plain",
+          "name":"PostgreSQL"
+        },
+        {
+          "class":"devicon-redis-plain",
+          "name":"Redis"
+        },
+        {
+          "name": "AWS",
+          "class": "devicon-amazonwebservices-plain",
+          "level": "75"
+        },
+        {
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain",
+          "level": "85"
+        },
+        {
+          "name": "Git",
+          "class": "devicon-git-plain",
+          "level": "65"
+        },
+        
+        {
+          "name": "MySql",
+          "class": "devicon-mysql-plain",
+          "level": "60"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class":"devicon-tensorflow-original",
+          "name":"Tensor Flow"
+        },
+        {
+          "class":"devicon-opencv-plain",
+          "name":"Open CV"
+        },
+        {
+          "class":"devicon-flask-original",
+          "name":"Flask"
+        },
+        {
+          "class":"devicon-docker-plain",
+          "name":"Docker"
+        },
+        {
+          "class":"devicon-kubernetes-plain",
+          "name":"Kubernetes"
+        },
+        {
+          "class":"devicon-gradle-plain",
+          "name":"Gradle"
+        }
+      ]
+    }
+  }

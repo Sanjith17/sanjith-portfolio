@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "As a passionate and skilled software engineer, I excel in both frontend and backend development, specializing in React, TypeScript, and AWS. With a Master's in Computer Science from Indiana University and experience in creating robust, scalable applications, I thrive on solving complex technical challenges and driving innovation. My expertise includes RESTful services, microservices architecture, and full-stack development. I'm dedicated to continuous learning and leveraging cutting-edge technologies to build impactful solutions.",
+      "description": "As a highly motivated and technically proficient software engineer, I bring a strong foundation in both frontend and backend development, specializing in React.js, Spring Boot, and AWS. I hold a Master’s degree in Computer Science from Indiana University, where I contributed to significant performance improvements in various projects. My experience spans from optimizing backend systems with Java and PostgreSQL to developing responsive user interfaces with React.js. With hands-on expertise in microservices architecture, RESTful APIs, and cloud deployment using Docker and Kubernetes, I am committed to leveraging cutting-edge technologies to deliver scalable and efficient solutions. My dedication to continuous learning is reflected in my certifications in AWS, Azure, and MongoDB, and I thrive in dynamic environments where I can solve complex technical challenges and drive innovation.",
       "section_name": {
         "about": "About me",
         "education": "Education",
@@ -13,12 +13,12 @@
     },
     "education":[
       {
-        "institution_name":"Anna University",
+        "institution_name":"Amrita Vishwa Vidyapeetham",
         "degree_name":"Bachelor of Technology",
-        "major":"Information Technology",
-        "start_ts":"Aug 2018",
-        "end_ts":"May 2022",
-        "gpa":"8.92",
+        "major":"Electronics and Communication",
+        "start_ts":"Aug 2017",
+        "end_ts":"May 2021",
+        "gpa":"9.18",
         "gpa_total":"10"
       },
       {
@@ -103,11 +103,11 @@
     ],
     "experience": [
       {
-        "company": "AISmart Solutions",
-        "title": "Software Engineer",
-        "years": "06.2020 - 05.2022",
+        "company": "Indiana University",
+        "title": "Reasearch Analyst",
+        "years": "05.2023 - 05.2024",
         "mainTech": [
-          "Next.js, Spring Boot, Spring Cloud(Eureka, Api Gateway)"
+          "React.js, Spring Boot, Spring Cloud(Eureka, Api Gateway)"
         ],
         "technologies": [
           "REST API",
@@ -121,12 +121,12 @@
           "AWS",
           "JWT"
         ],
-        "description":"At AISmart Solutions, I improved SQL query performance, integrated server-side solutions with Spring Boot, and enhanced client-side functionality with Next.js. I also managed infrastructure optimizations, leveraged AWS services for scaling, and adhered to Agile methodologies to boost productivity. My technical expertise includes Java, Spring Framework, React, AWS, and various databases, with a focus on performance optimization and scalable architecture."
+        "description":"At Indiana University, I improved SQL query performance, integrated server-side solutions with Spring Boot, and enhanced client-side functionality with React.js. I also managed infrastructure optimizations, leveraged AWS services for scaling, and adhered to Agile methodologies to boost productivity. My technical expertise includes Java, Spring Framework, React, AWS, and various databases, with a focus on performance optimization and scalable architecture."
 
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
+        "company": "Sify Technologies",
+        "title": "Software Engineer",
         "years": "01.2018 - 09.2019",
         "mainTech": [
           "Angular 7/8"
@@ -136,8 +136,33 @@
           "Django",
           "PHP",
           "JavaScript",
-          "DHTMLX Gantt"
-        ]
+          "DHTMLX Gantt",
+          "Spring Boot"
+        ],
+
+        "description":"I worked as a Software Engineer where I focused on enhancing data accessibility and integrating it with Angular to create responsive user interfaces, which improved overall performance by 15%. I was responsible for maintaining RESTful APIs using Java and Spring Boot, and my efforts helped reduce server response times by 20%. I also implemented DevOps practices, including CI/CD pipelines with Jenkins and Docker for version control, which streamlined our development process. My work with Hibernate, JDBC, and Flowable was crucial in ensuring efficient data operations within our microservices architecture. Additionally, I configured Swagger in Spring MVC and developed APIs using AWS Lambda to facilitate seamless data retrieval from SQL databases."
+
+      },
+
+      {
+        "company": "Sling Media",
+        "title": "Software Engineer",
+        "years": "01.2018 - 09.2019",
+        "mainTech": [
+          "Angular 7/8"
+        ],
+        "technologies": [
+          "ReactJS",
+          "Django",
+          "PHP",
+          "JavaScript",
+          "AWS",
+          "Microservices",
+          "MongoDB",
+          "Spring"
+        ],
+
+        "description":"I contributed as a Software Engineer, where I developed key modules of Sling TV, specifically the Guide and Home modules, using React.js. This work led to a 25% increase in user engagement by optimizing content delivery and improving the user interface. I also played a key role in integrating our frontend and backend systems with AWS-based media streaming microservices, using MongoDB for data storage and React for content rendering. Furthermore, I worked extensively with REST APIs and microservices using Spring, and I utilized Kubernetes for scalable deployments. My responsibilities also included writing Oracle SQL queries and PL/SQL procedures to manage data within our databases, and I implemented the Spring framework to support dependency injection and data access patterns."
       }
     ]
 }

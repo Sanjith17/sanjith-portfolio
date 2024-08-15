@@ -42,27 +42,28 @@
         "end_ts":"May 2025",
         "gpa":"3.91",
         "gpa_total":"4",
-        "course_work":"Object-Oriented Software Development, Distributed Systems, Cross-platform Mobile Programming, Applied Machine Learning"
+        "course_work":"Software Engineering, Data Mining, Engineering Cloud Computing, Database Design, Applied Machine Learning"
       },
       {
-        "institution_name":"Anna University",
+        "institution_name":"Amrita Vishwa Vidyapeetham",
         "degree_name":"Bachelor of Technology",
-        "major":"Information Technology",
-        "start_ts":"Aug 2018",
-        "end_ts":"May 2022",
-        "gpa":"8.92",
+        "major":"Computer Science",
+        "start_ts":"Aug 2017",
+        "end_ts":"May 2021",
+        "gpa":"9.18",
         "gpa_total":"10",
-        "course_work":"Algorithm Design & Analysis, Advanced Data structures, Machine Learning Fundamentals, Probability and Statistics, Database Management  systems, Software Engineering, Principles of Operating Systems, Cloud Computing & Virtualization."
+        "course_work":"Data Structures and Algorithms, Pattern Recognition, Introduction to IT, Intro. to Soft Computing"
       }
     ],
     "projects": [
       {
-        "title": "Travel Wizard",
+        "title": "Stock Recommendation Website",
         "startDate": "2023",
-        "description": "Coordinated a team of three developers, and supervised the UI and integration of new features in the application while troubleshooting issues and tuning the application’s performance. Thus enhancing the response time by 24%. Designed the overall web application system architecture while incorporating CI/CD pipelines. Led and implemented server API endpoints along with middleware, and as a database admin, structured data models to satisfy up to 3NF.",
+        "description": "Built a website using Angular for user interaction, incorporating NgRx for state management and Node.js for API development to enable seamless frontend and backend communication, and hosted the application on Firebase.",
         "images": [
-          "images/portfolio/travel-wizard/travel-wizard-1.jpg",
-          "images/portfolio/travel-wizard/travel-wizard-2.jpg"
+          "images/portfolio/stocks/p2.png",
+          "images/portfolio/stocks/p1.png"
+          
         ],
         "url": "https://travelwizard-t9.onrender.com/",
         "technologies": [
@@ -85,14 +86,18 @@
         ]
       },
       {
-        "title": "Distributed Key-Value Store",
+        "title": "Pneumonia Detection System",
         "startDate": "2023",
-        "description": "Developed a sophisticated distributed key-value store in Java, employing UDP and Multicast protocols for efficient network communication and leveraging Memcached for enhanced object storage. Engineered to support multiple consistency models including sequential, eventual, linearizability, and causal consistency.",
+        "description": "Designed and deployed a COVID-19 and pneumonia detection website on AWS, with ReactJS for Frontend, Sageamaker to train the model, AWS S3 to host and store the user x-ray, AWS Lambda to trigger AWS Sagemaker to classify the X-ray.",
         "images": [
-          "images/portfolio/photography/p1.svg",
-          "images/portfolio/photography/p2.png"
+          "images/portfolio/pneumonia/p1.png",
+          "images/portfolio/pneumonia/p2.png",
+          "images/portfolio/pneumonia/p3.png",
+          "images/portfolio/pneumonia/p4.png",
+          "images/portfolio/pneumonia/p5.png"
+          
         ],
-        "url": "https://github.com/avinash-rdy2903/Distributed-Systems/tree/main/src",
+        "url": "https://github.com/",
         "technologies": [
           {
             "class": "devicon-java-original",
@@ -105,38 +110,14 @@
         ]
       },
       {
-        "title":"Advanced Bio-Medical Knowledge Graphs - LLM Integration",
+        "title":"Hotel Monitoring System",
         "startDate": "2023",
-        "description": "Investigated the integration of Large Language Models (LLMs) to enhance medical knowledge graph accuracy, focusing on reducing hallucinatory outputs crucial for clinical reliability. Focussing on patient-disease-diagnosis-drug relationship. Created an automated Named Entity Recognition (NER) system using advanced models like BioBERT, GPT-4, and other fine-tuned models from Hugging Face Transformers, achieving up to 89.1% accuracy in extracting medical entities, which facilitated the construction of knowledge graphs from complex medical texts. [BioBERT, Claude, GPT-4, Spacy]",
+        "description": "Engineered a comprehensive hotel booking and recommendation Website for customers and hotel owners using ReactJs technologies at client, Java Spring Boot at server side and MYSQL, achieving operational efficiency of 25%.",
         "images": [
-          "images/portfolio/llm/p1.png",
-          "images/portfolio/llm/p2.jpeg"
+          "images/portfolio/hotel/p1.jpg",
+          "images/portfolio/hotel/p2.jpg"
         ],
         "url": "",
-        "technologies": [
-          {
-            "class": "devicon-python-original",
-            "name": "Python"
-          },
-          {
-            "class":"devicon-pytorch-original",
-            "name":"PyTorch"
-          },
-          {
-            "class":"devicon-opencv-original",
-            "name":"Open CV"
-          }
-        ]
-      },
-      {
-        "title": "FlickMatch",
-        "startDate": "2023",
-        "description": "Designed ORM using Spring Hibernate and DAO repository layer using JPA Entity Manager. Implemented proactive health-check API, and employed unit testing using JUnit. Caching using AWS ElastiCache for better response time. Utilized Redux library for state management of components and flux architecture for improved scalability. Employed sensors for faster authentication and refined recommendations.",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.png"
-        ],
-        "url": "https://github.com/avinash-rdy2903/flick-match",
         "technologies": [
           {
             "class": "devicon-react-original-wordmark",
@@ -159,71 +140,29 @@
             "name":"PostgreSQL"
           }
         ]
-      },
-      {
-        "title": "Map Reduce",
-        "startDate": "2023",
-        "description": "Designed and implemented a distributed MapReduce systemin Java, capable of running on both single and cluster environments. The system uses network sockets(TCP) for inter-node communication and local file systems for data storage, adhering to a distributed architecture without shared disk access.",
-        "images": [
-          "images/portfolio/photography/p2.png",
-          "images/portfolio/photography/p1.svg"
-        ],
-        "url": "https://github.com/avinash-rdy2903/Distributed-Systems/tree/main/Ass-2/MapReduce",
-        "technologies": [
-          {
-            "class": "devicon-java-original",
-            "name": "Java"
-          }
-        ]
-      },
-      {
-        "title": "Digitization of Answer Scripts",
-        "startDate": "2021",
-        "description": "Extensively analyzed multiple research publications on image segmentation, and engineered a deep learning pipeline to extract different elements fromanswer scripts, that comprise three distinct phases, CNN-PSPNet segment generation, contour extraction, and Question Paper based image reconstruction, digitized the final images using AWS Textract. Deployed the final model with 68% IoU(accuracy) in triangulating question numbers position, using Pyhton’s Flask.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpeg",
-          "images/portfolio/animal-shelter/p2.jpeg"
-        ],
-        "url": "https://github.com/avinash-rdy2903",
-        "technologies": [
-          {
-            "class": "devicon-python-original",
-            "name": "Python"
-          },
-          {
-            "class":"devicon-tensorflow-original",
-            "name":"Tensor Flow"
-          },
-          {
-            "class":"devicon-opencv-original",
-            "name":"Open CV"
-          },{
-            "class":"devicon-flask-original",
-            "name":"Flask"
-          }
-        ]
       }
+     
     ],
     "experience": [
       {
         "company": "Indiana University Bloomington",
-        "title": "Security Operation Intern",
-        "years": "Nov 2023 - May 2024",
+        "title": "Research Analyst",
+        "years": "May 2023 - May 2024",
         "mainTech": [
-          "SSH, Azure, Security Engineering, Network Security"
+          "Docker, AWS, React.JS, Spring Boot"
         ],
         "technologies": [
-          "Azure",
-          "Linux",
-          "Bash"
+          "AWS",
+          "Spring Boot",
+          "React.JS"
         ],
-        "description":"Effectively handling tier 1 technical analysis and response for cybersecurity incidents to end users and IT staff. Resolved 40% of backlog tickets by developing a log parser that extracts information needed for rapid tier 1 analysis. Thoroughly trained and acted cautiously to adhere to FREPA regulations and University policies in day-to-day operations."
+       "description": "At Indiana University, I improved SQL query performance, integrated server-side solutions with Spring Boot, and enhanced client-side functionality with React.js. I also managed infrastructure optimizations, leveraged AWS services for scaling, and adhered to Agile methodologies to boost productivity. My technical expertise includes Java, Spring Framework, React, AWS, and various databases, with a focus on performance optimization and scalable architecture."
 
       },
       {
-        "company": "Delite Software Technologies",
-        "title": "Software Engineer Intern",
-        "years": "May 2023 - July 2023",
+        "company": "Sify Technologies",
+        "title": "Software Engineer ",
+        "years": "Jan 2022 - Aug 2022",
         "mainTech": [
           "React.js, Redux, Spring Boot, Spring Cloud (Eureka, Api Gateway)"
         ],
@@ -234,18 +173,18 @@
           "Next.js",
           "Tailwind CSS",
           "Webpack",
-          "PostgreSQL",
+          "MYSQL",
           "MongoDB",
           "AWS",
           "JWT"
         ],
-        "description":"Implemented RESTful microservices using Spring MVC, Spring Cloud, and Redis caching for a State Government Record Management System, enhancing throughput by 40% and achieving 99.99% uptime. Integrated Spring Security with JWT for authentication. Enhanced UI by incorporating lazy loading of React components, improving page load speed by 30%. Designed Redux thunks for async server calls, reducing Total Blocking Time by 150ms. Utilized Hibernate for caching and transaction management. Adopted TTD approach using JUnit, Mockito, and Mocha for unit and integration tests. Leveraged AWS Auto-Scaling and canary testing, reducing cross-feature bugs by 10%."
+        "description":"I worked as a Software Engineer where I focused on enhancing data accessibility and integrating it with Angular to create responsive user interfaces, which improved overall performance by 15%. I was responsible for maintaining RESTful APIs using Java and Spring Boot, and my efforts helped reduce server response times by 20%. I also implemented DevOps practices, including CI/CD pipelines with Jenkins and Docker for version control, which streamlined our development process. My work with Hibernate, JDBC, and Flowable was crucial in ensuring efficient data operations within our microservices architecture. Additionally, I configured Swagger in Spring MVC and developed APIs using AWS Lambda to facilitate seamless data retrieval from SQL databases."
 
       },
       {
-        "company": "AISmart Solutions",
+        "company": "Sling Media",
         "title": "Software Engineer",
-        "years": "Jun 2020 - May 2022",
+        "years": "Jun 2021 - Dec 2021",
         "mainTech": [
           "Next.js, Spring Boot, Spring Security, JWT, Spring AOP"
         ],
@@ -256,25 +195,25 @@
           "Next.js",
           "Tailwind CSS",
           "Webpack",
-          "PostgreSQL",
+          "Oracle SQL",
           "MongoDB",
           "AWS",
           "JWT"
         ],
-        "description":"At AISmart Solutions, I improved SQL query performance, integrated server-side solutions with Spring Boot, and enhanced client-side functionality with Next.js. I also managed infrastructure optimizations, leveraged AWS services for scaling, and adhered to Agile methodologies to boost productivity. My technical expertise includes Java, Spring Framework, React, AWS, and various databases, with a focus on performance optimization and scalable architecture."
+        "description":"I contributed as a Software Engineer, where I developed key modules of Sling TV, specifically the Guide and Home modules, using React.js. This work led to a 25% increase in user engagement by optimizing content delivery and improving the user interface. I also played a key role in integrating our frontend and backend systems with AWS-based media streaming microservices, using MongoDB for data storage and React for content rendering. Furthermore, I worked extensively with REST APIs and microservices using Spring, and I utilized Kubernetes for scalable deployments. My responsibilities also included writing Oracle SQL queries and PL/SQL procedures to manage data within our databases, and I implemented the Spring framework to support dependency injection and data access patterns."
 
       }
     ],
     "research":{
       "publications":[
         {
-          "title":"Advanced Network Surgery Technique Predicting Paddy Leaf Diseases",
-          "author":"Doniparthi Sai Charan, Mettukuru Avinash Reddy",
-          "year":"2022",
-          "publisher":"INTERNATIONAL JOURNAL OF ENGINEERING RESEARCH & TECHNOLOGY (IJERT)",
-          "volume":"CCICS – 2022 (Volume 10 – Issue 13)",
-          "abstract":"Agriculture plays a chiefly role in economy as well as it is considered to be the backbone of economic system for developing countries. For decades, agriculture has been related with the production of vital food crops. Paddy rice is a staple crop for much of the worlds population. It is also a key source of the greenhouse gas methane, responsible for about 40 million tonnes, or 10% of global emissions, each year. Thus, the proposed research work aims to predict the type of disease in a paddy plant to help the farmer in deciding the fertilizer that shall be given to the plant for its healthy growth. Here the trending deep learning technology is used to achieve the proposed solution. An innovative modified VGGNet architecture is proposed which uses two different types of optimization technique to increase the accuracy is used for training the dataset. Then the trained model that is generated by this algorithm is given as an input to the next algorithm where resnet is used to further increase the accuracy of the model. The datasets were collected from UCI real time images as well as the GitHub datasets and the training are performed. The three different types of paddy disease such as bacterial leaf blight, blast, brown spot is used for prediction. The three different types of datasets used were UCI repository, Github images as well as images searched from internet. The experimental results of three diseases show that 97% of accuracy is achieved in predicting the type of disease in paddy plant.",
-          "cite":"Doniparthi Sai Charan, Mettukuru Avinash Reddy, 2022, Advanced Network Surgery Technique Predicting Paddy Leaf Diseases, INTERNATIONAL JOURNAL OF ENGINEERING RESEARCH & TECHNOLOGY (IJERT) CCICS – 2022 (Volume 10 – Issue 13)"
+          "title":"Design and Implementation of Efficient Stochastic Number Generator",
+          "author":"Sanjith Reddy P V, Sai Sanath Potnuru, Sonali Agrawal",
+          "year":"2021",
+          "publisher":"International Conference on Electrical, Computer and Communication Technologies (ICECCT 2021)",
+          "volume":"pp 1-7",
+          "abstract":"Stochastic Computing (SC) is a logical computational technique that performs operations on random bit streams. These random bit streams are generated using stochastic number generators (SNG). In the circuits using stochastic computing, SNGs consume most of the physical area and power. This paper proposes power and speed efficient 4-bit and 8-bit SNGs by using modified Non-linear Feedback Shift Register (NLFSR) as Random Number Source (RNS) and by applying the concept of sharing of an RNS with many SNGs. An n bit NLFSR can generate all 2 n random sequences. The 4-bit and 8-bit NLFSRs, designed using the bipartite technique, are proposed to reduce the delay and power consumed by the SNG. In this paper, proposed 4-bit and 8-bit SNGs are designed and implemented using Xilinx ISE tool and their performance concerning area, power, and delay, are evaluated with Cadence Genus synthesis solution in 45nm technology. The performance of proposed SNGs is compared with the existing SNGs and this comparison shows that the proposed SNGs are more efficient in terms of power and speed. It is also observed that as the number of bits increases, the reduction in power consumption and delay also increases for the proposed design with respect to the existing design.",
+          "cite": "S. R. P. V, S. Sanath Potnuru, T. S. Venkatesh and S. Agrawal, \"Design and Implementation of Efficient Stochastic Number Generator,\" 2021 Fourth International Conference on Electrical, Computer and Communication Technologies (ICECCT), Erode, India, 2021, pp. 1-7, doi: 10.1109/ICECCT52121.2021.9616758."
         }
       ]
     }

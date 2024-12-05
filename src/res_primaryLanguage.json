@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "As a seasoned software engineer with over 2 years of hands-on experience, I excel in both server-side and client-side development. My technical expertise spans across a variety of technologies including React/ React Native, TypeScript, Java, Spring Boot, Flowable, CSS,GraphQL, FastAPI, Terraform, and AWS. I have a Master's in Computer Science from Indiana University Bloomington and a Bachelor's in Information Technology from Anna University. My professional journey includes significant contributions to infrastructure optimization, database operations, and the implementation of RESTful microservices. I am adept at leveraging tools like Spring Boot, Redux, and Next.js to enhance application performance and user experience. Certified in AWS and Azure, I thrive in Agile environments and have a proven track record of driving project success.",
+      "description": "As a seasoned software engineer with over 3 years of hands-on experience, I excel in both server-side and client-side development. My technical expertise spans across a variety of technologies including React/ React Native, TypeScript, Java, Spring Boot, Flowable, CSS,GraphQL, FastAPI, Terraform, and AWS. I have a Master's in Computer Science from Indiana University Bloomington and a Bachelor's in Information Technology from Anna University. My professional journey includes significant contributions to infrastructure optimization, database operations, and the implementation of RESTful microservices. I am adept at leveraging tools like Spring Boot, Redux, and Next.js to enhance application performance and user experience. Certified in AWS and Azure, I thrive in Agile environments and have a proven track record of driving project success.",
       "section_name": {
         "home": {
           "title": "Home",
@@ -57,6 +57,61 @@
     ],
     "projects": [
       {
+        "title":"Blog Hosting Platform on AWS with Automated Deployment",
+        "startDate": "2024",
+        "description": "Developed a multi-user blog hosting platform on AWS, leveraging Terraform and Ansible for automated provisioning and deployment, with CI/CD pipelines on Jenkins and scalable traffic management.",
+        "images": [
+          "images/portfolio/cloud1/cloud2.jpg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-terraform-plain",
+            "name": "Terraform"
+          },
+          {
+            "class": "devicon-amazonwebservices-plain-wordmark",
+            "name": "AWS"
+          },
+          {
+            "class": "devicon-ansible-plain",
+            "name": "Ansible"
+          },
+          {
+            "class": "devicon-jenkins-plain",
+            "name": "Jenkins"
+          },
+          {
+            "class": "devicon-github-original",
+            "name": "Github"
+          }
+        ]
+      },
+      {
+        "title": "Pneumonia Detection System",
+        "startDate": "2024",
+        "description": "Designed and deployed a COVID-19 and pneumonia detection website on AWS, with ReactJS for Frontend, Sageamaker to train the model, AWS S3 to host and store the user x-ray, AWS Lambda to trigger AWS Sagemaker to classify the X-ray.",
+        "images": [
+          "images/portfolio/pneumonia/p4.png",
+          "images/portfolio/pneumonia/p2.png",
+          "images/portfolio/pneumonia/p3.png",
+          "images/portfolio/pneumonia/p1.png",
+          "images/portfolio/pneumonia/p5.png"
+          
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-java-original",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-bash-plain",
+            "name": "Bash"
+          }
+        ]
+      },
+      {
         "title": "Stock Recommendation Website",
         "startDate": "2023",
         "description": "Built a website using Angular for user interaction, incorporating NgRx for state management and Node.js for API development to enable seamless frontend and backend communication, and hosted the application on Firebase.",
@@ -65,7 +120,7 @@
           "images/portfolio/stocks/p1.png"
           
         ],
-        "url": "https://travelwizard-t9.onrender.com/",
+        "url": "",
         "technologies": [
           {
             "class": "devicon-react-original-wordmark",
@@ -86,26 +141,29 @@
         ]
       },
       {
-        "title": "Pneumonia Detection System",
+        "title":"Automated Cloud Infrastructure Development for Research Plaforms",
         "startDate": "2023",
-        "description": "Designed and deployed a COVID-19 and pneumonia detection website on AWS, with ReactJS for Frontend, Sageamaker to train the model, AWS S3 to host and store the user x-ray, AWS Lambda to trigger AWS Sagemaker to classify the X-ray.",
+        "description": "Designed and deployed AWS infrastructure using Terraform and Ansible, automating the setup of scalable and secure environments for research tools, reducing provisioning time by 60%.",
         "images": [
-          "images/portfolio/pneumonia/p1.png",
-          "images/portfolio/pneumonia/p2.png",
-          "images/portfolio/pneumonia/p3.png",
-          "images/portfolio/pneumonia/p4.png",
-          "images/portfolio/pneumonia/p5.png"
-          
+          "images/portfolio/cloud1/cloud1.jpg"
         ],
-        "url": "https://github.com/",
+        "url": "",
         "technologies": [
           {
-            "class": "devicon-java-original",
-            "name": "Java"
+            "class": "devicon-terraform-plain",
+            "name": "Terraform"
           },
           {
-            "class": "devicon-bash-plain",
-            "name": "Bash"
+            "class": "devicon-amazonwebservices-plain-wordmark",
+            "name": "AWS"
+          },
+          {
+            "class": "devicon-ansible-plain",
+            "name": "Ansible"
+          },
+          {
+            "class": "devicon-jenkins-plain",
+            "name": "Jenkins"
           }
         ]
       },
@@ -114,8 +172,8 @@
         "startDate": "2023",
         "description": "Engineered a comprehensive hotel booking and recommendation Website for customers and hotel owners using ReactJs technologies at client, Java Spring Boot at server side and MYSQL, achieving operational efficiency of 25%.",
         "images": [
-          "images/portfolio/hotel/p1.jpg",
-          "images/portfolio/hotel/p2.jpg"
+          "images/portfolio/hotel/hotel.jpg",
+          "images/portfolio/hotel/hotel2.jpg"
         ],
         "url": "",
         "technologies": [
@@ -145,9 +203,24 @@
     ],
     "experience": [
       {
+        "company": "Hoosier Cimmunity Network",
+        "title": "Software Engineer",
+        "years": "Jul 2024 - Present",
+        "mainTech": [
+          "Java, Spring Boot, AWS, AngularJS, PorstgreSQL"
+        ],
+        "technologies": [
+          "AWS",
+          "Spring Boot",
+          "AngularJS"
+        ],
+       "description": "At Hoosier Community Network, I lead a team to develop, deploy and maintain a website. I used AngularJs and TypeScript for the frontend and Spring Boot, PostgreSQL, Hiberante for the backend and deployed the website on AWS using tools like Docker, Git, ECR, ECS, AWS IAM, Virtual Network and maintained the website using AWS ClouWatch, CloudTrail and other tools whenever required"
+
+      },
+      {
         "company": "Indiana University Bloomington",
-        "title": "Research Analyst",
-        "years": "May 2023 - May 2024",
+        "title": "Software Engineer",
+        "years": "Aug 2022 - May 2024",
         "mainTech": [
           "Docker, AWS, React.JS, Spring Boot"
         ],
